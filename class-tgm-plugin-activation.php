@@ -8,7 +8,7 @@
  * or theme author for support.
  *
  * @package   TGM-Plugin-Activation
- * @version   2.5.2
+ * @version   2.6.0
  * @link      http://tgmpluginactivation.com/
  * @author    Thomas Griffin, Gary Jones, Juliette Reinders Folmer
  * @copyright Copyright (c) 2011, Thomas Griffin
@@ -55,7 +55,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		 *
 		 * @const string Version number.
 		 */
-		const TGMPA_VERSION = '2.5.2';
+		const TGMPA_VERSION = '2.6.0';
 
 		/**
 		 * Regular expression to test if a URL is a WP plugin repo URL.
@@ -453,7 +453,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		/**
 		 * Load translations.
 		 *
-		 * @since 2.x.x
+		 * @since 2.6.0
 		 *
 		 * (@internal Uses `load_theme_textdomain()` rather than `load_plugin_textdomain()` to
 		 * get round the different ways of handling the path and deprecated notices being thrown
@@ -485,7 +485,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		 * {@internal IMPORTANT! If this function changes, review the regex in the custom TGMPA
 		 * generator on the website.}}
 		 *
-		 * @since 2.x.x
+		 * @since 2.6.0
 		 *
 		 * @param string $mofile Full path to the target mofile.
 		 * @param string $domain The domain for which a language file is being loaded.
@@ -512,7 +512,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		 * {@internal IMPORTANT! If this function changes, review the regex in the custom TGMPA
 		 * generator on the website.}}
 		 *
-		 * @since 2.x.x
+		 * @since 2.6.0
 		 *
 		 * @param string $mofile Full path to the target mofile.
 		 * @param string $domain The domain for which a language file is being loaded.
@@ -1238,7 +1238,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		/**
 		 * Generate the user action links for the admin notice.
 		 *
-		 * @since 2.x.x
+		 * @since 2.6.0
 		 *
 		 * @param int $install_count  Number of plugins to install.
 		 * @param int $update_count   Number of plugins to update.
@@ -1300,7 +1300,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		 * Work around all the changes to the various admin notice classes between WP 4.4 and 3.7
 		 * (lowest supported version by TGMPA).
 		 *
-		 * @since 2.x.x
+		 * @since 2.6.0
 		 *
 		 * @return string
 		 */
@@ -1713,7 +1713,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		/**
 		 * Determine if we're on a WP Core installation/upgrade page.
 		 *
-		 * @since 2.x.x
+		 * @since 2.6.0
 		 *
 		 * @return boolean True when on a WP Core installation/upgrade page, false otherwise.
 		 */
@@ -1862,7 +1862,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		 * Check to see if the plugin is 'updatetable', i.e. installed, with an update available
 		 * and no WP version requirements blocking it.
 		 *
-		 * @since 2.x.x
+		 * @since 2.6.0
 		 *
 		 * @param string $slug Plugin slug.
 		 * @return bool True if OK to proceed with update, false otherwise.
