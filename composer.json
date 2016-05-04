@@ -29,6 +29,5 @@
     "php": ">=5.2"
   },
   "autoload": {
-    "files": ["class-tgm-plugin-activation.php"]
   }
 }
