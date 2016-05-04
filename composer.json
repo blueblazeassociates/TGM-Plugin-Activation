@@ -29,5 +29,8 @@
     "php": ">=5.2"
   },
   "autoload": {
+  },
+  "replace": {
+    "tgmpa/tgm-plugin-activation" : "2.5.2"
   }
 }
