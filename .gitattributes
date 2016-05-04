@@ -1,0 +1,15 @@
+##
+# The following settings are used to remove folders/files from deployment when using 'git archive'.
+##
+
+# tgm-plugin-activation exclude settings.
+/.editorconfig
+/.scrutinizer.yml
+/.travis.yml
+
+# Git folders/files
+/.gitattributes export-ignore
+/.gitignore export-ignore
+
+# Composer files
+/composer.json export-ignore
